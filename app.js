@@ -5,13 +5,7 @@ import createError from 'http-errors';
 
 import { router as indexRouter } from './routes/index'
 
-// import mongoose from 'mongoose';
-// import 'dotenv/config';
-
-// mongoose.set('strictQuery', false);
-// const mongoDB = process.env.MONGODB;
-// main().catch(e => console.log(e));
-// async function main() { await mongoose.connect(mongoDB) }
+// import './mongoConfig';
 
 const app = express();
 
